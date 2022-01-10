@@ -1,9 +1,9 @@
-let width = 5
-let letnght = 4
+// Given an n-sided regular polygon n, return the total sum of internal angles (in degrees)
 
+
+let n = 4
 let result = ''
-function findPerimeter(length, width) {
-	result = 2(lenght + width)
+function sumPolygon(n) {
+	result = (n - 2) * 180
 }
-
 return result
