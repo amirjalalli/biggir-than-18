@@ -1,9 +1,9 @@
-let num1 = +(prompt("enter first number: "))
-let num2 = +(prompt("enter second number: "))
+let width = 5
+let letnght = 4
 
-let plusResult = num1 + num2
-let minesResult = num1 - num2 
-let zarbResult = num1 * num2
-let tavanResult = num1 ** num2 
+let result = ''
+function findPerimeter(length, width) {
+	result = 2(lenght + width)
+}
 
-console.log(plusResult,minesResult,zarbResult,tavanResult)
+return result
